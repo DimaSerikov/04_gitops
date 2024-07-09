@@ -3,6 +3,7 @@ name: Hello World Workflow
 on:
   push:
     branches:
+      - master
       - main
       - md-sa2-28-24
 
@@ -23,4 +24,4 @@ jobs:
       
       - name: Say Hello
         run: php hello.php
-        working-directory: ./sa.it-academy.by/Dima_Serikov/04.GitOps
+#        working-directory: ./sa.it-academy.by/Dima_Serikov/04.GitOps
