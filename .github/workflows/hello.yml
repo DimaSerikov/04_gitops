@@ -3,6 +3,7 @@ name: Hello World Workflow
 on:
   push:
     branches:
+      - master
       - main
       - md-sa2-28-24
 
