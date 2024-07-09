@@ -24,3 +24,9 @@ jobs:
       
       - name: Say Hello
         run: php hello.php
+
+      - name: Install dependencies
+        run: composer install
+
+      - name: Run tests
+        run: vendor/bin/phpunit tests
